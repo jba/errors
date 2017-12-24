@@ -1,6 +1,6 @@
 # Errors in Go
 
-This package provides for augmenting Go errors with more
+This package provides support for augmenting Go errors with more
 information.
 
 Although it includes a single interface, `Error`, with the full set of methods
@@ -36,7 +36,7 @@ ErrorSource() error
 ```
 We avoid the word "cause" because it carries too much baggage: is the
 InvalidArgument error you got from that RPC really the cause of the error you're
-returning? Wasn't the actual cause it bad user input?
+returning? Wasn't bad user input the actual cause?
 
 ## Additional Information
 
