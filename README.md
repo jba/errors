@@ -1,4 +1,4 @@
-# Errors in Go
+# Errors in Go [![GoDoc](https://godoc.org/github.com/jba/errors?status.svg)](http://godoc.org/github.com/jba/errors)
 
 This package provides support for augmenting Go errors with more
 information.
